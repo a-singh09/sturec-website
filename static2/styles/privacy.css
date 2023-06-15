@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+h1 {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 21pt;
+}
+
+.s1 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.a {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.s2 {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+p {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 0pt;
+}
+
+.s3 {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 21pt;
+}
+
+.s4 {
+    color: #646464;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+.s5 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.s6 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 21pt;
+}
+
+.s7 {
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+li {
+    display: block;
+}
+
+#l1 {
+    padding-left: 0pt;
+    counter-reset: c1 1;
+}
+
+#l1>li>*:first-child:before {
+    counter-increment: c1;
+    content: counter(c1, decimal)". ";
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+#l1>li:first-child>*:first-child:before {
+    counter-increment: c1 0;
+}
+
+li {
+    display: block;
+}
+
+#l2 {
+    padding-left: 0pt;
+}
+
+#l2>li>*:first-child:before {
+    content: "- ";
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l3 {
+    padding-left: 0pt;
+    counter-reset: e1 1;
+}
+
+#l3>li>*:first-child:before {
+    counter-increment: e1;
+    content: counter(e1, decimal)". ";
+    color: #646464;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#l3>li:first-child>*:first-child:before {
+    counter-increment: e1 0;
+}
+
+li {
+    display: block;
+}
+
+#l4 {
+    padding-left: 0pt;
+}
+
+#l4>li>*:first-child:before {
+    content: "- ";
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+li {
+    display: block;
+}
+
+#l5 {
+    padding-left: 0pt;
+    counter-reset: g1 1;
+}
+
+#l5>li>*:first-child:before {
+    counter-increment: g1;
+    content: counter(g1, decimal)". ";
+    color: #646464;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#l5>li:first-child>*:first-child:before {
+    counter-increment: g1 0;
+}
+
+#l6 {
+    padding-left: 0pt;
+    counter-reset: g2 1;
+}
+
+#l6>li>*:first-child:before {
+    counter-increment: g2;
+    content: counter(g2, lower-roman)". ";
+    color: #646464;
+    font-family: Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#l6>li:first-child>*:first-child:before {
+    counter-increment: g2 0;
+}
